@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- style.css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+
+    <title>iShashi E-Commerce Website</title>
+</head>
+
+<body id="top">
+    <!-- ==============header menu section starts here============== -->
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3  ">
+                <a class="navbar-brand pl-5" href="index.html" href="javascript:;">
+                    <img src="assets/images/logo.png" class="img img-fluid" width="40px" height="40px" alt="logo">
+                </a><strong>iShashi</strong>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">
+                            Search
+                        </a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <span class="badge badge-pill badge-primary">24</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- ==============header menu section ends here============== -->
+
+    <!-- ==============product_detail starts here============== -->
+    <section class="product_detail py-5 my-5" id="product_detail">
+        <div class="container ">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">product detail</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide shadow rounded"
+                                data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                        <img src="assets/images/bg7.webp" class="d-block w-50 img img-fluid rounded"
+                                            width="15px" height="15px" alt="image">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                                        <img src="assets/images/product2.png" class="d-block w-50 img img-fluid rounded"
+                                            width="15px" height="15px" alt="image">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                                        <img src="assets/images/bg8.webp" class="d-block w-50 img img-fluid rounded"
+                                            width="15px" height="15px" alt="image">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/images/bg7.webp" class="d-block w-100 img img-fluid rounded"
+                                            alt="image" width="370px" height="403px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/images/product2.png"
+                                            class="d-block w-100 img img-fluid rounded" alt="image" width="370px"
+                                            height="403px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/images/bg8.webp" class="d-block w-100 img img-fluid rounded"
+                                            alt="image" width="370px" height="403px">
+                                    </div>
+                                </div>
+                                <!--  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title mb-4">
+                                <h3>APPLE 2020 Macbook Pro M1</h3>
+                            </div>
+                            <div class="category mb-4">
+                                <span class="bg-light-gray p-2"><a href="category.html">APPLE</a></span>
+                            </div>
+                            <div class="rating d-flex text-danger mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price mb-4">
+                                <b><span class="mr-1">₹</span><span>1,32,990</span></b>
+                            </div>
+                            <div class="desc ">
+                                <p>
+                                    Apple refreshed the 13-inch MacBook Pro in June 2022, adding an Apple-designed "M2"
+                                    Arm-based chip to replace the prior M1 chip. The M2 MacBook Pro is being sold
+                                    alongside the higher-end M1 Pro and M1 Max 14 and 16-inch MacBook Pro models, and it
+                                    is considered the entry-level model in the MacBook Pro lineup. <br>
+
+                                    The M2 chip is Apple's second System on a Chip for Mac that integrates the CPU, GPU,
+                                    RAM, and more all together. The M2 has an 8-core CPU with four high-efficiency cores
+                                    and four high-performance cores along with an integrated GPU that has up to 10
+                                    cores. <br>
+                                    There are no external design changes to the MacBook Pro and it continues to feature
+                                    the same aluminum body with large Force Touch trackpad, speakers at the side of the
+                                    keyboard, and 13.3-inch display with slim black bezels. The MacBook Pro comes in
+                                    Silver and Space Gray color options. <br>
+
+                                    The display features a 2560x1600 resolution, 500 nits brightness, P3 wide color
+                                    support for vivid, true-to-life colors, and True Tone that matches the color
+                                    temperature of the display to the ambient lighting for a more natural viewing
+                                    experience that's easier on the eyes. <br>
+
+                                    Apple's M2 MacBook Pro includes a 720p FaceTime HD camera, which is the same as the
+                                    camera in the prior model, with the M2 continuing to offer improved picture quality
+                                    with better noise reduction, better dynamic range, and other features.
+                                </p>
+                            </div>
+                            <div class="qty_section border-top pt-2 mb-4">
+                                <label>Quantitiy</label>
+                                <div>
+                                    <div class="mb-0 w-100">
+                                        <input class="quantity text-center" min="0" max="10" name="quantity" value="1"
+                                            type="number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------related products starts here---------- -->
+            <section class="related_products py-5 my-5" id="related_products">
+                <div class="title">
+                    <h3>Related Products</h3>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4 col-6">
+                        <div class="border border-dark rounded shadow text-center p-3">
+                            <div class="mb-4">
+                                <img src="assets/images/product4.png" class="img img-fluid" alt="image">
+                            </div>
+                            <div>
+                                <a href="javascript:;">
+                                    <h5>APPLE Watch SE</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="border border-dark rounded shadow text-center p-3">
+                            <div class="mb-4">
+                                <img src="assets/images/product1.png" class="img img-fluid" alt="image">
+                            </div>
+                            <div>
+                                <a href="javascript:;">
+                                    <h5>APPLE iphone 13</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="border border-dark rounded shadow text-center p-3">
+                            <div class="mb-4">
+                                <img src="assets/images/product3.png" class="img img-fluid" alt="image">
+                            </div>
+                            <div>
+                                <a href="javascript:;">
+                                    <h5>APPLE ipad Pro</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ----------------related products ends here---------- -->
+        </div>
+    </section>
+
+    <!-- ==============product_detail ends here============== -->
+
+    <!-- ==============footer starts here============== -->
+    <!-- ==============footer starts here============== -->
+    <section class="footer_section pt-5 pb-2" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="assets/images/logo.png" width="80px" class="img img-fluid"
+                                    alt="logo"></a>
+                        </div>
+                        <div>
+                            In terms of software as well as hardware, products designed by Apple <strong>integrate well
+                                with present needs</strong>. Consistently well-performing and easily usable, the devices
+                            are long-lasting and well equipped to adapt to ongoing technological advancements.
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javascript:;">Get Coupon</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Iphones</a></li>
+                                <li><a href="javascript:;">Smart Watches</a></li>
+                                <li><a href="javascript:;">Macbooks</a></li>
+                                <li><a href="javascript:;">Ipads</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright ©2022 All rights reserved by Shashi Pratap
+                </h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+    <!-- ==============footer ends here============== -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
