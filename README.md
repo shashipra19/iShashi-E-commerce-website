@@ -23,7 +23,8 @@ Contact Page
 ![Screenshot 2023-03-23 001359](https://user-images.githubusercontent.com/68426579/227007066-f3353bb2-0a6e-4b85-9bd9-296b5c2d56fc.jpg)
 
 Cart Page
-![Screenshot 2023-03-23 001359](https://user-images.githubusercontent.com/68426579/227007116-4623a284-90cd-41c4-b460-9a4ed2fb8c20.jpg)
+![Screenshot 2023-03-23 001444](https://user-images.githubusercontent.com/68426579/227007588-cc6754fa-e4fb-4869-af5c-0fe92a22f4ab.jpg)
+
 
 Checkout Page
 ![Screenshot 2023-03-23 001517](https://user-images.githubusercontent.com/68426579/227007181-cca36adc-4d50-4ad8-ad3f-b8cff74bf564.jpg)
